@@ -14,8 +14,9 @@
   }
   body {
     background-image: url("image/image\ 1.png");
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
   }
 .fixte {
     position: fixed;

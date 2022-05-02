@@ -14,13 +14,10 @@
   }
  .image {
     background-image: url("image/image\ 1.png");
-    background-repeat: no-repeat;
-    background-size: auto auto;
-  background-size: 100% auto;
-  @media screen and (max-width:800px) {
-    body {
-      background-size: cover;
-      background-attachment:fixed }
+    width: 100vw;
+height: 100vh;
+background-size: cover;
+background-position: center, center;
   }
   }
 .fixte {

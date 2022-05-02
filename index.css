@@ -1,26 +1,23 @@
-.hovertext {
-    position: relative;
-  }
+.hide {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 350%;
+ }
   
-  .hovertext:before {
-    content: attr(data-hover);
-    visibility: hidden;
-    opacity: 0;
-    width: 140px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 5px;
-    padding: 5px 0;
-    transition: opacity 1s ease-in-out;
-  
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    top: 110%;
+  .myDIV:hover + .hide {
+    display: block;
+    color: rgb(255, 255, 255);
+    transition: display 1s ease-in-out;
   }
-  
-  .hovertext:hover:before {
-    opacity: 1;
-    visibility: visible;
+  body {
+    background-image: url("image/image\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
+.fixte {
+    position: fixed;
+    top: 100%;
+ }

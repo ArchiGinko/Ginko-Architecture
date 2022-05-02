@@ -1,6 +1,5 @@
 .hovertext {
     position: relative;
-    border-bottom: 0.5px underline white;
   }
   
   .hovertext:before {
@@ -8,7 +7,7 @@
     visibility: hidden;
     opacity: 0;
     width: 140px;
-    background-color: black
+    background-color: black;
     color: #fff;
     text-align: center;
     border-radius: 5px;

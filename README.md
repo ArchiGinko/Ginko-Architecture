@@ -1,2 +1,2 @@
-# Ginko-Architecture
+# Tamara Kliuk
 Portfolio

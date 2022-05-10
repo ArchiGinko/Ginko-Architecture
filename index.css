@@ -6,13 +6,21 @@
     transform: translate(-50%,-50%);
     font-size: 350%;
  }
-  
+ .hide2 {
+  display: block;
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-70%);
+  font-size: 350%;
+} 
+
   .myDIV:hover + .hide {
     display: block;
     color: rgb(255, 255, 255);
     transition: display 1s ease-in-out;
   }
-  
+
 .fixte {
     position: fixed;
     top: 100%;

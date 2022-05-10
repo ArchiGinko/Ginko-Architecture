@@ -1,17 +1,17 @@
 .hide {
     display: block;
     position: fixed;
-    top: 50%;
+    top: 30%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-70%,-50%);
     font-size: 350%;
  }
- .hide2 {
+ .woah {
   display: block;
   position: fixed;
   top: 70%;
   left: 50%;
-  transform: translate(-50%,-70%);
+  transform: translate(-50%,-30%);
   font-size: 350%;
 } 
 

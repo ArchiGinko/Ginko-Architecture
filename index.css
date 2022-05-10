@@ -3,7 +3,7 @@
     position: fixed;
     top: 30%;
     left: 50%;
-    transform: translate(-70%,-50%);
+    transform: translate(-50%,-30%);
     font-size: 350%;
  }
  .woah {
@@ -11,7 +11,7 @@
   position: fixed;
   top: 70%;
   left: 50%;
-  transform: translate(-50%,-30%);
+  transform: translate(-50%,-70%);
   font-size: 350%;
 } 
 

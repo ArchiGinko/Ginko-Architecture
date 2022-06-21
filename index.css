@@ -43,6 +43,15 @@
   font-size: 350%;
  } 
 
+ .wowowowiii {
+  display: block;
+  position: fixed;
+  top: 55%;
+  left: 65%;
+  transform: translate(-50%,-30%);
+  font-size: 350%;
+ } 
+
   .myDIV:hover + .hide {
     display: block;
     color: rgb(255, 255, 255);

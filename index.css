@@ -64,22 +64,25 @@
  }
 
  .image {
-  position:relative;
+  position:fixed;
+  top: 80%;
+ left: 30%;
+ transform: translate(-20%,-30%);
   display:inline-block;
 }
 .overlay {
   display:none;
 }
 .image:hover .overlay {
-  width: 10%;
-  height: 10%;
+  width: 100px;
+  height: 100px;
   background:rgba(0,0,0,.5);
   position:absolute;
   top:0;
   left:0;
   display:inline-block;
-  -webkit-box-sizing:content-box;
-  -moz-box-sizing:content-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
   box-sizing:content-box;
 
   /* All other styling - see example */

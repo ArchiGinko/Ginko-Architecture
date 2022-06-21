@@ -64,21 +64,19 @@
  }
 
  .image {
-  position:fixed;
-  width: 200px
-  height: auto
-  top: 75%;
- left: 25%;
- transform: translate(-20%,-30%);
+  position: fixed;
+  top: 80%;
+  left: 30%;
+  transform: translate(-20%,-30%);
+  font-size: 350%;
   display:inline-block;
-  transition: display 1s ease-in-out;
 }
 .overlay {
   display:none;
 }
 .image:hover .overlay {
-  width: 100px;
-  height: 100px;
+  width:10%;
+  height:10%;
   background:rgba(0,0,0,.5);
   position:absolute;
   top:0;
@@ -86,12 +84,7 @@
   display:inline-block;
   -webkit-box-sizing:border-box;
   -moz-box-sizing:border-box;
-  box-sizing:content-box;
+  box-sizing:border-box;
 
-  /* All other styling - see example */
-  img {
-    top: 80%;
-    left: 30%;
-    transform: translate(-20%,-30%);
-  }
+
 }

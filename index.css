@@ -63,24 +63,27 @@
     top: 100%;
  }
 
- .overlay {
-  position: fixed; /* Sit on top of the page content */
-  display: none; /* Hidden by default */
-  width: 100%; /* Full width (cover the whole page) */
-  height: 100%; /* Full height (cover the whole page) */
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: transparent url('image/image\ 1.png') no-repeat; /* Black background with opacity */
-  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-  cursor: pointer; /* Add a pointer on hover */
+ .image {
+  position:relative;
+  display:inline-block;
 }
-
-img{
-  display: none
+.overlay {
+  display:none;
 }
+.image:hover .overlay {
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,.5);
+  position:absolute;
+  top:0;
+  left:0;
+  display:inline-block;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
 
-span:hover + img{
-  display: block;
+  /* All other styling - see example */
+  img {
+     vertical-align:top;
+  }
 }

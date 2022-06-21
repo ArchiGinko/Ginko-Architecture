@@ -64,7 +64,7 @@
  }
 
  .image {
-  position: fixed;
+  position: relative;
   top: 80%;
   left: 30%;
   transform: translate(-20%,-30%);

@@ -65,8 +65,10 @@
 
  .image {
   position:fixed;
-  top: 80%;
- left: 30%;
+  width: 200px
+  height: auto
+  top: 75%;
+ left: 25%;
  transform: translate(-20%,-30%);
   display:inline-block;
   transition: display 1s ease-in-out;

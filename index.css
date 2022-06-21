@@ -69,6 +69,7 @@
  left: 30%;
  transform: translate(-20%,-30%);
   display:inline-block;
+  transition: display 1s ease-in-out;
 }
 .overlay {
   display:none;

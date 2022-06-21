@@ -24,6 +24,16 @@
  transform: translate(-20%,-30%);
  font-size: 350%;
 } 
+
+.wowowowi {
+  display: block;
+  position: fixed;
+  top: 30%;
+  left: 80%;
+  transform: translate(-50%,-30%);
+  font-size: 350%;
+ } 
+
   .myDIV:hover + .hide {
     display: block;
     color: rgb(255, 255, 255);

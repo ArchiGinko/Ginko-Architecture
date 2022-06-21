@@ -80,10 +80,12 @@
   display:inline-block;
   -webkit-box-sizing:border-box;
   -moz-box-sizing:border-box;
-  box-sizing:border-box;
+  box-sizing:content-box;
 
   /* All other styling - see example */
   img {
-     vertical-align:top;
+    top: 80%;
+    left: 30%;
+    transform: translate(-20%,-30%);
   }
 }

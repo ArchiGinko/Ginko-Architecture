@@ -63,13 +63,12 @@
     top: 100%;
  }
 
- .profile-image:hover .overlay {
-  display: block;
-  position: fixed;
-  top: 80%;
-  left: 30%;
-  transform: translate(-20%,-30%);
-  font-size: 350%;
+ .overlay {
+  position: absolute;
+  transition: all 0.3s ease;
+  opacity: 0;
+  width: 400px;
+  height: auto;
   background: transparent url('image/image\ 1.png') no-repeat;
   cursor: pointer;
 }

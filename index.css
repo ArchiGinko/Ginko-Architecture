@@ -68,6 +68,7 @@
   display:inline-block;
   top: 80%;
   left: 30%;
+  transform: translate(-20%,-30%);
 }
 .overlay {
   display:none;

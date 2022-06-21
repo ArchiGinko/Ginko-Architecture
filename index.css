@@ -9,12 +9,21 @@
  .woah {
   display: block;
   position: fixed;
-  top: 80%;
-  left: 30%;
-  transform: translate(-20%,-30%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   font-size: 350%;
 } 
 
+
+.wowowow {
+ display: block;
+ position: fixed;
+ top: 80%;
+ left: 30%;
+ transform: translate(-20%,-30%);
+ font-size: 350%;
+} 
   .myDIV:hover + .hide {
     display: block;
     color: rgb(255, 255, 255);

@@ -37,7 +37,7 @@
  .wowowowii {
   display: block;
   position: fixed;
-  top: 70%;
+  top: 60%;
   left: 20%;
   transform: translate(-50%,-30%);
   font-size: 350%;
@@ -46,7 +46,7 @@
  .wowowowiii {
   display: block;
   position: fixed;
-  top: 55%;
+  top: 65%;
   left: 65%;
   transform: translate(-50%,-30%);
   font-size: 350%;

@@ -68,6 +68,7 @@
   display:inline-block;
   top: 80%;
   left: 30%;
+  transition: display 1s ease-in-out;
   
 }
 .overlay {

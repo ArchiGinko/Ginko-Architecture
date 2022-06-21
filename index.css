@@ -64,10 +64,12 @@
  }
 
  .profile-image:hover .overlay {
-  position:absolute;
-  width: 48px;
-  height: 48px;
-  z-index: 100;
+  display: block;
+  position: fixed;
+  top: 80%;
+  left: 30%;
+  transform: translate(-20%,-30%);
+  font-size: 350%;
   background: transparent url('image/image\ 1.png') no-repeat;
   cursor: pointer;
 }

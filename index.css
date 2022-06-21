@@ -76,8 +76,8 @@
   height:100%;
   background:rgba(0,0,0,.5);
   position:absolute;
-  top:0;
-  left:0;
+  top: 80%;
+  left: 30%;
   display:inline-block;
   -webkit-box-sizing:border-box;
   -moz-box-sizing:border-box;

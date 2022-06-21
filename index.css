@@ -69,6 +69,7 @@
 }
 .overlay {
   display:none;
+  transition: display 1s ease-in-out;
 }
 .image:hover .overlay {
   width:100%;
@@ -81,5 +82,6 @@
   -webkit-box-sizing:border-box;
   -moz-box-sizing:border-box;
   box-sizing:border-box;
+  transition: display 1s ease-in-out;
 
 }

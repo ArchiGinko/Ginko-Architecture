@@ -64,7 +64,7 @@
  }
 
  .image {
-  position:fixed;
+  position:relative;
   display:inline-block;
   top: 77%;
   left: 26%;

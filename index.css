@@ -66,6 +66,8 @@
  .image {
   position:relative;
   display:inline-block;
+  top: 80%;
+  left: 30%;
 }
 .overlay {
   display:none;
@@ -78,6 +80,7 @@
   position:absolute;
   top: 80%;
   left: 30%;
+  transform: translate(-20%,-30%);
   display:inline-block;
   -webkit-box-sizing:border-box;
   -moz-box-sizing:border-box;

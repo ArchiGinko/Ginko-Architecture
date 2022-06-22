@@ -2,7 +2,7 @@
     display: block;
     position: absolute;
     top: 10%;
-    left: 10%;
+    left: 5%;
     transform: translate(-20%,-10%);
     font-size: 250%;
  }
@@ -10,7 +10,7 @@
   display: block;
   position: absolute;
   top: 20%;
-  left: 10%;
+  left: 5%;
   transform: translate(-20%,-10%);
   font-size: 250%;
 } 

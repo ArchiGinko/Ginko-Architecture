@@ -68,4 +68,10 @@
   transition: 0.3s;
 
 }
-textarea { resize:horizontal; }
+textarea { resize:horizontal;  
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-30%,-30%);
+  font-size: 150%; }

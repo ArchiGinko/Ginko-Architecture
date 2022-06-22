@@ -2,23 +2,23 @@
     display: block;
     position: absolute;
     top: 5%;
-    left: 5%;
+    left: 10%;
     transform: translate(-20%,-10%);
     font-size: 250%;
  }
  .hide2 {
   display: block;
   position: absolute;
-  top: 30%;
-  left: 20%;
+  top: 35%;
+  left: 10%;
   transform: translate(-30%,-30%);
   font-size: 150%;
 }
  .woah {
   display: block;
   position: absolute;
-  top: 10%;
-  left: 5%;
+  top: 15%;
+  left: 10%;
   transform: translate(-20%,-10%);
   font-size: 250%;
 } 

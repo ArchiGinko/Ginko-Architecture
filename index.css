@@ -3,15 +3,15 @@
     position: absolute;
     top: 20%;
     left: 10%;
-    transform: translate(-80%,-90%);
+    transform: translate(-20%,-10%);
     font-size: 350%;
  }
  .woah {
   display: block;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  top: 20%;
+  left: 10%;
+  transform: translate(-20%,-10%);
   font-size: 350%;
 } 
 

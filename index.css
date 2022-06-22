@@ -10,7 +10,7 @@
   display: block;
   position: absolute;
   top: 30%;
-  left: 70%;
+  left: 20%;
   transform: translate(-30%,-30%);
   font-size: 150%;
 }
@@ -58,7 +58,7 @@
   background:none;
   position:absolute;
   top: 30%;
-  left: 40%;
+  left: 50%;
   transform: translate(-20%,-30%);
   display:inline-block;
   -webkit-box-sizing:border-box;
